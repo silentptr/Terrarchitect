@@ -8,7 +8,7 @@ namespace terrarchitect.Walls
 	{
 		public override void SetDefaults() {
 			Main.wallHouse[Type] = true;
-			drop = ModContent.ItemType<Items.VerticalStripesWallpaper>();
+			drop = ModContent.ItemType<Items.VerticalStripesWallpaperItem>();
 			AddMapEntry(new Color(150, 150, 150));
 		}
 	}
