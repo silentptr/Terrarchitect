@@ -156,19 +156,19 @@ namespace Terrarchitect.NPCs
                     shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 10);
                     nextSlot++;
 
-                    shop.item[nextSlot].SetDefaults(mod.ItemType("VerticalStripesWallpaper"));   //Wallpapers
+                    shop.item[nextSlot].SetDefaults(mod.ItemType("VerticalStripesWallpaperItem"));   //Wallpapers
                     nextSlot++;  
-		    shop.item[nextSlot].SetDefaults(mod.ItemType("VintageFlowerWallpaper"));   
+		    shop.item[nextSlot].SetDefaults(mod.ItemType("VintageFlowerWallpaperItem"));   
                     nextSlot++; 
-		    shop.item[nextSlot].SetDefaults(mod.ItemType("VintageVineWallpaper"));   
+		    shop.item[nextSlot].SetDefaults(mod.ItemType("VintageVineWallpaperItem"));   
                     nextSlot++; 
-		    shop.item[nextSlot].SetDefaults(mod.ItemType("WavyLinesWallpaper"));   
+		    shop.item[nextSlot].SetDefaults(mod.ItemType("WavyLinesWallpaperItem"));   
                     nextSlot++; 
-		    shop.item[nextSlot].SetDefaults(mod.ItemType("RoyalWallpaper"));   
+		    shop.item[nextSlot].SetDefaults(mod.ItemType("RoyalWallpaperItem"));   
                     nextSlot++; 
-		    shop.item[nextSlot].SetDefaults(mod.ItemType("PolkaDotsWallpaper"));   
+		    shop.item[nextSlot].SetDefaults(mod.ItemType("PolkaDotsWallpaperItem"));   
                     nextSlot++; 
-		    shop.item[nextSlot].SetDefaults(mod.ItemType("HorizontalStripesWallpaper"));  
+		    shop.item[nextSlot].SetDefaults(mod.ItemType("HorizontalStripesWallpaperItem"));  
                     nextSlot++;
                     break;
                 case NPCID.WitchDoctor:
