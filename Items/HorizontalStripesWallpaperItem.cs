@@ -21,7 +21,7 @@ namespace Terrarchitect.Items
             item.useTurn = true;
             item.autoReuse = true;
             item.useAnimation = 15;
-            item.useTime = 10;
+            item.useTime = 7;
 
             item.useStyle = ItemUseStyleID.SwingThrow;
             item.consumable = true;
