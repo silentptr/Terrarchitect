@@ -15,7 +15,7 @@ namespace Terrarchitect.Items
         {
             item.width = 32;
             item.height = 32;
-            item.maxStack = 99;
+            item.maxStack = 999;
             item.value = 50;
 
             item.useTurn = true;
@@ -23,7 +23,7 @@ namespace Terrarchitect.Items
             item.useAnimation = 15;
             item.useTime = 7;
 
-            item.useStyle = ItemUseStyleID.SwingThrow;
+            item.useStyle = 1;
             item.consumable = true;
             item.createWall = WallType<Walls.HorizontalStripesWallpaper>();
         }
