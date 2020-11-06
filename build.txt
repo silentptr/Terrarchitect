@@ -1,0 +1,9 @@
+displayName = Terrarchitect
+homepage = https://forums.terraria.org/index.php?threads/terrarchitect.95959/
+author = Gurgle_Nurgle, silent_ptr
+version = 1.2
+hideCode = false
+hideResources = false
+includeSource = false
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, *.sln
+includePDB = true
