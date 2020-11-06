@@ -156,8 +156,20 @@ namespace Terrarchitect.NPCs
                     shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 10);
                     nextSlot++;
 
-                    shop.item[nextSlot].SetDefaults(ItemType<Items.HorizontalStripesWallpaperItem>());
-                    shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 50);
+                    shop.item[nextSlot].SetDefaults(mod.ItemType("VerticalStripesWallpaper"));   //Wallpapers
+                    nextSlot++;  
+					shop.item[nextSlot].SetDefaults(mod.ItemType("VintageFlowerWallpaper"));   
+                    nextSlot++; 
+					shop.item[nextSlot].SetDefaults(mod.ItemType("VintageVineWallpaper"));   
+                    nextSlot++; 
+					shop.item[nextSlot].SetDefaults(mod.ItemType("WavyLinesWallpaper"));   
+                    nextSlot++; 
+					shop.item[nextSlot].SetDefaults(mod.ItemType("RoyalWallpaper"));   
+                    nextSlot++; 
+					shop.item[nextSlot].SetDefaults(mod.ItemType("PolkaDotsWallpaper"));   
+                    nextSlot++; 
+					shop.item[nextSlot].SetDefaults(mod.ItemType("HorizontalStripesWallpaper"));   
+                    nextSlot++;
                     nextSlot++;
                     break;
                 case NPCID.WitchDoctor:
