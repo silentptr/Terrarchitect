@@ -8,7 +8,7 @@ namespace terrarchitect.Walls
 	{
 		public override void SetDefaults() {
 			Main.wallHouse[Type] = true;
-			drop = ModContent.ItemType<Items.WavyLinesWallpaper>();
+			drop = ModContent.ItemType<Items.WavyLinesWallpaperItem>();
 			AddMapEntry(new Color(150, 150, 150));
 		}
 	}
