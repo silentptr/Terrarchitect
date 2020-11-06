@@ -158,18 +158,17 @@ namespace Terrarchitect.NPCs
 
                     shop.item[nextSlot].SetDefaults(mod.ItemType("VerticalStripesWallpaper"));   //Wallpapers
                     nextSlot++;  
-					shop.item[nextSlot].SetDefaults(mod.ItemType("VintageFlowerWallpaper"));   
+		    shop.item[nextSlot].SetDefaults(mod.ItemType("VintageFlowerWallpaper"));   
                     nextSlot++; 
-					shop.item[nextSlot].SetDefaults(mod.ItemType("VintageVineWallpaper"));   
+		    shop.item[nextSlot].SetDefaults(mod.ItemType("VintageVineWallpaper"));   
                     nextSlot++; 
-					shop.item[nextSlot].SetDefaults(mod.ItemType("WavyLinesWallpaper"));   
+		    shop.item[nextSlot].SetDefaults(mod.ItemType("WavyLinesWallpaper"));   
                     nextSlot++; 
-					shop.item[nextSlot].SetDefaults(mod.ItemType("RoyalWallpaper"));   
+		    shop.item[nextSlot].SetDefaults(mod.ItemType("RoyalWallpaper"));   
                     nextSlot++; 
-					shop.item[nextSlot].SetDefaults(mod.ItemType("PolkaDotsWallpaper"));   
+		    shop.item[nextSlot].SetDefaults(mod.ItemType("PolkaDotsWallpaper"));   
                     nextSlot++; 
-					shop.item[nextSlot].SetDefaults(mod.ItemType("HorizontalStripesWallpaper"));   
-                    nextSlot++;
+		    shop.item[nextSlot].SetDefaults(mod.ItemType("HorizontalStripesWallpaper"));  
                     nextSlot++;
                     break;
                 case NPCID.WitchDoctor:
