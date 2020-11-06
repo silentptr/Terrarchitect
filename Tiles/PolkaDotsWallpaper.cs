@@ -8,7 +8,7 @@ namespace terrarchitect.Walls
 	{
 		public override void SetDefaults() {
 			Main.wallHouse[Type] = true;
-			drop = ModContent.ItemType<Items.PolkaDotsWallpaper>();
+			drop = ModContent.ItemType<Items.PolkaDotsWallpaperItem>();
 			AddMapEntry(new Color(150, 150, 150));
 		}
 	}
