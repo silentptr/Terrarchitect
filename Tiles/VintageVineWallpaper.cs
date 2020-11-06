@@ -8,7 +8,7 @@ namespace terrarchitect.Walls
 	{
 		public override void SetDefaults() {
 			Main.wallHouse[Type] = true;
-			drop = ModContent.ItemType<Items.VintageVineWallpaper>();
+			drop = ModContent.ItemType<Items.VintageVineWallpaperItem>();
 			AddMapEntry(new Color(150, 150, 150));
 		}
 	}
