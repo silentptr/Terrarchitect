@@ -1,4 +1,5 @@
 ﻿using Terraria;
+using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 using Terraria.Enums;
@@ -19,7 +20,9 @@ namespace Terrarchitect.Tiles
             TileObjectData.newTile.StyleHorizontal = true;
             TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
             TileObjectData.newAlternate.Direction = TileObjectDirection.PlaceRight;
+            AddToArray(ref TileID.Sets.RoomNeeds.CountsAsChair);
             TileObjectData.addAlternate(1);
+            
             TileObjectData.addTile(Type);
             disableSmartCursor = true;
         }
