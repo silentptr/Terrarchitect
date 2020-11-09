@@ -11,4 +11,4 @@ A "cheat sheet" containing all items and how to craft or find them is available 
 -----------------------------------
 
 Spriting by Gurgle_Nurgle
-Coding by silent_ptr
+Coding by silent_ptr and Zandberg
