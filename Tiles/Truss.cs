@@ -9,7 +9,7 @@ namespace Terrarchitect.Tiles
 		public override void SetDefaults() {
 			Main.tileSolid[Type] = true;
 			Main.tileMergeDirt[Type] = true;
-			Main.tileBlockLight[Type] = true;
+			Main.tileBlockLight[Type] = false;
 			Main.tileLighted[Type] = true;
 			drop = ModContent.ItemType<Items.TrussItem>();
 			AddMapEntry(new Color(150, 150, 150));
