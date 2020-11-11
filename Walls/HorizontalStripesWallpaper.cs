@@ -10,6 +10,7 @@ namespace Terrarchitect.Walls
         {
             Main.wallHouse[Type] = true;
             drop = ItemType<Items.HorizontalStripesWallpaperItem>();
+            AddMapEntry(new Color(224, 155, 141));
         }
     }
 }
