@@ -11,5 +11,5 @@ namespace Terrarchitect.Walls
 			drop = ModContent.ItemType<Items.LeadlightWallItem>();
 			AddMapEntry(new Color(73, 110, 115));
 		}
-}
 	}
+}
