@@ -7,6 +7,7 @@ namespace Terrarchitect.Walls
     {
         public override void SetDefaults()
         {
+            Main.wallLight[Type] = true;
             drop = ItemType<Items.BarbedWireFenceItem>();
         }
     }
