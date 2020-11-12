@@ -1,14 +1,16 @@
-This mod adds a wide variety of custom-made, high-quality decorational items to Terraria, some of which are interactive! It also aims to make some previously ubobtainable or unplacable vanilla items available.
+Terrarchitect adds a wide variety of custom-made, high-quality decorational items and blocks to Terraria, some of which are interactive! It also aims to make some previously ubobtainable or unplacable vanilla items available.
 
 Whether you're a dedicated builder who wants to add more detail to his creations our you're more interested in the game's progression but still want your base to look good, this mod has something for everybody.
 
-All new items are craftable at the newly added crafting station called "Terrarchitect Catalogue" or can be bought from various NPCs.
+All new items are craftable at the newly added crafting station, the "Terrarchitect Catalogue", or can be bought from various NPCs.
+We highly recommend installing DRKV’s mod “Shop Expander” to avoid overflowing the inventories of the NPCs.
 
-We want to add way more content in the future, so stay tuned!
+We want to add more content in the future, so stay tuned!
 
 A "cheat sheet" containing all items and how to craft or find them is available through Terrarchitect's thread on the Terraria Community Forums.
+To keep up with the development process, feel free to join our subreddit r/Terrarchitect.
 
 -----------------------------------
 
-Spriting by Gurgle_Nurgle
-Coding by silent_ptr
+Spritework by Gurgle_Nurgle
+Coding by silent_ptr and Zandberg
