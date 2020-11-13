@@ -15,7 +15,7 @@ namespace Terrarchitect.Items
         {
             item.width = 16;
             item.height = 16;
-            item.maxStack = 99;
+            item.maxStack = 999;
             item.value = 5;
 
             item.useTurn = true;
