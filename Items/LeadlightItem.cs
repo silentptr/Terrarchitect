@@ -26,7 +26,7 @@ namespace Terrarchitect.Items
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(mod, "LeadlightWallItem", 4);
-            recipe.AddTile(TileID.WorkBenches);
+            recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
             recipe.SetResult(this);
             recipe.AddRecipe();
 			
