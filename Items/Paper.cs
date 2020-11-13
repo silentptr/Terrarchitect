@@ -17,7 +17,7 @@ namespace Terrarchitect.Items
         {
             ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddRecipeGroup("Wood");
-            recipe.SetResult(this,4);
+            recipe.SetResult(this);
             recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
             recipe.AddRecipe();
         }
