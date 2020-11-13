@@ -2,11 +2,10 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace Terrarchitect.Items
+namespace Terrarchitect.Items 
 {
-    public class Paper : ModItem
+    public class Paper : ModItem //Is not calling it PaperItem too confusing? I don't know. It didn't have a tile variant so I just stuck with Paper instead
     {
-        public override void SetStaticDefaults(){DisplayName.SetDefault("Paper");}
 		public override void SetDefaults()
         {
             item.width = 28;
