@@ -1,4 +1,4 @@
-﻿using Terraria;
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
@@ -27,6 +27,15 @@ namespace Terrarchitect.Items
             item.useStyle = ItemUseStyleID.SwingThrow;
             item.consumable = true;
             item.createTile = TileType<Tiles.Backpack>();
+        }
+		public override void AddRecipes()
+        {
+            ModRecipe recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.Leather,4);
+			recipe.AddIngredient(ItemID.Silk,2);
+            recipe.SetResult(this);
+            recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
+            recipe.AddRecipe();
         }
     }
 }
