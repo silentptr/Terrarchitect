@@ -1,4 +1,4 @@
-﻿using Terraria.ID;
+using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
@@ -31,11 +31,12 @@ namespace Terrarchitect.Items
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.Wood, 2);
-            recipe.anyWood = true;
-            recipe.SetResult(this, 1);
+            recipe.AddIngredient(ItemID.Rope);
+			recipe.AddIngredient(mod.ItemType("Paper"),4);
+            recipe.SetResult(this);
             recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
             recipe.AddRecipe();
         }
     }
 }
+
