@@ -17,7 +17,6 @@ namespace Terrarchitect.Tiles
             TileObjectData.newTile.CoordinateHeights = new[] { 16, 18 };
             TileObjectData.addTile(Type);
             disableSmartCursor = true;
-            adjTiles = new int[] { TileID.WorkBenches };
         }
 
         public override void KillMultiTile(int i, int j, int frameX, int frameY)
