@@ -128,10 +128,6 @@ namespace Terrarchitect.NPCs
                     shop.item[nextSlot].SetDefaults(ItemType<Items.ToolboxItem>());
                     shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 10);
                     nextSlot++;
-
-                    shop.item[nextSlot].SetDefaults(ItemType<Items.AirBlowerItem>());
-                    shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 10);
-                    nextSlot++;
                     break;
                 case NPCID.DD2Bartender:
                     shop.item[nextSlot].SetDefaults(ItemType<Items.BeerMugItem>());
