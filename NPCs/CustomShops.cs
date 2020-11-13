@@ -215,18 +215,14 @@ namespace Terrarchitect.NPCs
                     nextSlot++;
                     break;
                 case 7:
-                    shop[nextSlot] = ItemType<Items.BackpackItem>();
-                    nextSlot++;
-                    break;
-                case 8:
                     shop[nextSlot] = ItemType<Items.DeerSkullTrophyItem>();
                     nextSlot++;
                     break;
-                case 9:
+                case 8:
                     shop[nextSlot] = ItemType<Items.LargeGlobeItem>();
                     nextSlot++;
                     break;
-                case 10:
+                case 9:
                     shop[nextSlot] = ItemType<Items.RhinoHuntingTrophyItem>();
                     nextSlot++;
                     break;
