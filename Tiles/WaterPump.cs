@@ -1,4 +1,5 @@
 ﻿using Terraria;
+using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 using Terraria.Enums;
@@ -23,6 +24,7 @@ namespace Terrarchitect.Tiles
             TileObjectData.addAlternate(1);
             TileObjectData.addTile(Type);
             disableSmartCursor = true;
+            adjTiles = new int[]{ TileID.Sinks };
         }
 
         public override void KillMultiTile(int i, int j, int frameX, int frameY)
