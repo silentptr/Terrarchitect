@@ -9,7 +9,7 @@ namespace Terrarchitect.Tiles
 	{
 		public override void SetDefaults() {
 			Main.tileSolid[Type] = true;
-			TileID.RoomNeeds.DrawsWalls[Type] = true;
+			TileID.Sets.RoomNeeds.DrawsWalls[Type] = true;
 			Main.tileBlockLight[Type] = false;
 			Main.tileLighted[Type] = true;
 			drop = ModContent.ItemType<Items.ThinPipeItem>();
