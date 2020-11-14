@@ -9,7 +9,6 @@ namespace Terrarchitect.Tiles
 		public override void SetDefaults() {
 			Main.tileSolid[Type] = true;
 			Main.tileBlockLight[Type] = false;
-			Main.tileBrick[Type] = true;
 			Main.tileLighted[Type] = true;
 			drop = ModContent.ItemType<Items.ThinPipeItem>();
 			AddMapEntry(new Color(150, 150, 150));
