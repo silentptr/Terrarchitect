@@ -26,7 +26,7 @@ namespace Terrarchitect
             recipe2.AddRecipe();
 			
 			ModRecipe recipe3 = new ModRecipe(this);
-            recipe3.AddIngredient(ModContent.GetInstance<Items.Paper>());
+            recipe3.AddIngredient(ModContent.GetInstance<Items.Paper>(), 4);
             recipe3.AddTile(ModContent.TileType<Tiles.TerrarchitectCatalogue>());
             recipe3.SetResult(ItemID.Book);
             recipe3.AddRecipe();
