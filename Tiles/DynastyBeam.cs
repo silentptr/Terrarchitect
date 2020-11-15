@@ -10,7 +10,7 @@ namespace Terrarchitect.Tiles
     {
         public override void SetDefaults()
         {
-            Main.tileSolid[Type] = true;
+            Main.tileSolid[Type] = false;
             TileID.Sets.NotReallySolid[Type] = true;
             Main.tileLavaDeath[Type] = true;
             Main.tileMergeDirt[Type] = false;
