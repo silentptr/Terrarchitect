@@ -9,6 +9,7 @@ namespace Terrarchitect.Walls
         public override void SetDefaults()
         {
             Main.wallHouse[Type] = true;
+            Main.wallLight[Type] = true;
             Main.tileBlockLight[Type] = false;
             drop = ItemType<Items.RoundPaneGlassWallItem>();
         }
