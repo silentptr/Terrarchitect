@@ -10,7 +10,6 @@ namespace Terrarchitect.Tiles
         public override void SetDefaults()
         {
             Main.tileSolid[Type] = false;
-            Main.tileTable[Type] = true;
             Main.tileLavaDeath[Type] = true;
             Main.tileMergeDirt[Type] = false;
             TileObjectData.newTile.CopyFrom(TileObjectData.Style1x1);
