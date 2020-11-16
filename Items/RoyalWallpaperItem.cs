@@ -7,7 +7,7 @@ namespace terrarchitect.Items
 	public class RoyalWallpaperItem : ModItem
 	{
 		public override void SetStaticDefaults() {
-			DisplayName.SetDefault("RoyalWallpaper");
+			DisplayName.SetDefault("Royal Wallpaper");
 		}
 
 		public override void SetDefaults() {
