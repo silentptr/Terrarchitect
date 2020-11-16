@@ -11,6 +11,7 @@ namespace Terrarchitect.Tiles
         {
             Main.tileSolid[Type] = true;
             Main.tileLavaDeath[Type] = true;
+            Main.tileBlockLight[Type] = false;
             Main.tileMergeDirt[Type] = false;
             Main.tileBlockLight[Type] = true;
             TileObjectData.newTile.CopyFrom(TileObjectData.Style1x1);
