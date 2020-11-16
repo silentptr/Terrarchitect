@@ -34,7 +34,7 @@ namespace Terrarchitect.Items
             recipe.AddIngredient(ItemID.Chain);
             recipe.AddIngredient(ItemID.Spike);
             recipe.anyWood = true;
-            recipe.SetResult(this);
+            recipe.SetResult(this, 4);
             recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
             recipe.AddRecipe();
         }
