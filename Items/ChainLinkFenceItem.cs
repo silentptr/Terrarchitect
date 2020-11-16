@@ -32,7 +32,7 @@ namespace Terrarchitect.Items
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.Chain);
-            recipe.SetResult(this, 1);
+            recipe.SetResult(this, 4);
             recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
             recipe.AddRecipe();
         }
