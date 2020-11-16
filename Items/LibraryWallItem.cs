@@ -32,6 +32,7 @@ namespace Terrarchitect.Items
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.Wood);
+            recipe.anyWood = true;
             recipe.AddIngredient(ItemID.Book);
             recipe.SetResult(this, 4);
             recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
