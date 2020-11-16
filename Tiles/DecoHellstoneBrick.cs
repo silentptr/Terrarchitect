@@ -15,5 +15,10 @@ namespace Terrarchitect.Tiles
 			drop = ModContent.ItemType<Items.DecoHellstoneBrickItem>();
 			//AddMapEntry(new Color());
 		}
+		public override void ModifyLight(int i, int j, ref float r, ref float g, ref float b) {
+			r = 0.15f;
+			g = 0f;
+			b = 0f;
+		}
 	}
 }
