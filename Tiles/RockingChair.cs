@@ -22,6 +22,7 @@ namespace Terrarchitect.Tiles
             TileObjectData.addAlternate(1);
             TileObjectData.addTile(Type);
             disableSmartCursor = true;
+            AddToArray(ref TileID.Sets.RoomNeeds.CountsAsChair);
         }
 
         public override void KillMultiTile(int i, int j, int frameX, int frameY)
