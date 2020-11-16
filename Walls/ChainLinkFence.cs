@@ -10,7 +10,7 @@ namespace Terrarchitect.Walls
         {
             Main.wallHouse[Type] = true;
             Main.wallLight[Type] = true;
-            drop = ItemType<Items.LibraryWallItem>();
+            drop = ItemType<Items.ChainLinkFenceItem>();
         }
     }
 }
