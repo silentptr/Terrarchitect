@@ -32,8 +32,8 @@ namespace Terrarchitect.Items
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.IronBar, 1);
-            recipe.AddIngredient(ItemID.Hellstone, 2);
             recipe.anyIronBar = true;
+            recipe.AddIngredient(ItemID.Hellstone, 2);
             recipe.SetResult(this, 1);
             recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
             recipe.AddRecipe();
