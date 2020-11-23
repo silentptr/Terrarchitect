@@ -29,7 +29,7 @@ namespace Terrarchitect.NPCs
                     nextSlot++;
 
                     shop.item[nextSlot].SetDefaults(ItemType<Items.GoldenBellItem>());
-                    shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 1);
+                    shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 10);
                     nextSlot++;
 
                     shop.item[nextSlot].SetDefaults(ItemType<Items.ParchmentItem>());
