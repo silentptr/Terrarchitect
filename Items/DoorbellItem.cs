@@ -33,7 +33,7 @@ namespace Terrarchitect.Items
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.IronBar);
             recipe.anyIronBar = true;
-            recipe.AddIngredient(ItemID.Bell);
+            recipe.AddIngredient(ItemID.Bell, 1);
             recipe.SetResult(this, 1);
             recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
             recipe.AddRecipe();
