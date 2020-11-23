@@ -19,7 +19,7 @@ namespace Terrarchitect.Tiles
             TileObjectData.newTile.StyleHorizontal = true;
             TileObjectData.newTile.Width = 2;
             TileObjectData.newTile.Height = 2;
-            TileObjectData.newTile.CoordinateWidth = 16;
+            TileObjectData.newTile.CoordinateWidth = new int[] { 16, 18 };
             TileObjectData.newTile.CoordinateHeights = new int[] { 16, 16 };
             TileObjectData.newTile.UsesCustomCanPlace = true;
             TileObjectData.newTile.AnchorLeft = new AnchorData(AnchorType.AlternateTile, TileObjectData.newTile.Height, 0);
@@ -27,7 +27,7 @@ namespace Terrarchitect.Tiles
             TileObjectData.newAlternate.CopyFrom(TileObjectData.StyleTorch);
             TileObjectData.newAlternate.Width = 2;
             TileObjectData.newAlternate.Height = 2;
-            TileObjectData.newAlternate.CoordinateWidth = 16;
+            TileObjectData.newAlternate.CoordinateWidth = new int[] { 18, 16 };
             TileObjectData.newAlternate.CoordinateHeights = new int[] { 16, 16 };
             TileObjectData.newAlternate.UsesCustomCanPlace = true;
             TileObjectData.newAlternate.AnchorRight = new AnchorData(AnchorType.AlternateTile, TileObjectData.newAlternate.Height, 0);
