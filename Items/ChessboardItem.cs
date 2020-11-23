@@ -28,5 +28,14 @@ namespace Terrarchitect.Items
             item.consumable = true;
             item.createTile = TileType<Tiles.Chessboard>();
         }
+         public override void AddRecipes()
+        {
+            ModRecipe recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.SmoothMarbleBlock);
+            recipe.AddIngredient(ItemID.Obsidian);
+            recipe.SetResult(this, 1);
+            recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
+            recipe.AddRecipe();
+        }
     }
 }
