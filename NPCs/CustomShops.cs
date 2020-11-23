@@ -187,38 +187,34 @@ namespace Terrarchitect.NPCs
             switch (r)
             {
                 case 1:
-                    shop[nextSlot] = ItemType<Items.ChessboardItem>();
-                    nextSlot++;
-                    break;
-                case 2:
                     shop[nextSlot] = ItemType<Items.DeerHuntingTrophyItem>();
                     nextSlot++;
                     break;
-                case 3:
+                case 2:
                     shop[nextSlot] = ItemType<Items.GongItem>();
                     nextSlot++;
                     break;
-                case 4:
+                case 3:
                     shop[nextSlot] = ItemType<Items.GlobeItem>();
                     nextSlot++;
                     break;
-                case 5:
+                case 4:
                     shop[nextSlot] = ItemType<Items.TelescopeItem>();
                     nextSlot++;
                     break;
-                case 6:
+                case 5:
                     shop[nextSlot] = ItemType<Items.AntelopeHuntingTrophyItem>();
                     nextSlot++;
                     break;
-                case 7:
+                case 6:
                     shop[nextSlot] = ItemType<Items.DeerSkullTrophyItem>();
                     nextSlot++;
                     break;
-                case 8:
+                case 7:
                     shop[nextSlot] = ItemType<Items.LargeGlobeItem>();
                     nextSlot++;
                     break;
-                case 9:
+                case 8:
                     shop[nextSlot] = ItemType<Items.RhinoHuntingTrophyItem>();
                     nextSlot++;
                     break;
