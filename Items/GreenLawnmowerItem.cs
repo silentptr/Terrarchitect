@@ -27,5 +27,15 @@ namespace Terrarchitect.Items
             item.consumable = true;
             item.createTile = TileType<Tiles.GreenLawnmower>();
         }
+             public override void AddRecipes()
+        {
+            ModRecipe recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.IronBar, 1);
+            recipe.anyIronBar = true;
+            recipe.AddIngredient(ItemID.Wire, 2);
+            recipe.SetResult(this, 1);
+            recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
+            recipe.AddRecipe();
+        }
     }
 }
