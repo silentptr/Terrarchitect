@@ -27,5 +27,16 @@ namespace Terrarchitect.Items
             item.consumable = true;
             item.createTile = TileType<Tiles.BonsaiTree>();
         }
+        
+        public override void AddRecipes()
+        {
+            ModRecipe recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.Acorn, 1);
+            recipe.AddIngredient(ItemID.ClayBlock, 2);
+            recipe.AddIngredient(ItemID.DirtBlock, 2);
+            recipe.SetResult(this, 1);
+            recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
+            recipe.AddRecipe();
+        }
     }
 }
