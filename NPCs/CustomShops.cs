@@ -65,10 +65,6 @@ namespace Terrarchitect.NPCs
                     nextSlot++;
                     break;
                 case NPCID.Dryad:
-                    shop.item[nextSlot].SetDefaults(ItemType<Items.BonsaiTreeItem>());
-                    shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 1);
-                    nextSlot++;
-
                     shop.item[nextSlot].SetDefaults(ItemType<Items.GardenHoseItem>());
                     shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 50);
                     nextSlot++;
