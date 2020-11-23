@@ -69,10 +69,6 @@ namespace Terrarchitect.NPCs
                     shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 50);
                     nextSlot++;
 
-                    shop.item[nextSlot].SetDefaults(ItemType<Items.GreenLawnmowerItem>());
-                    shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 50);
-                    nextSlot++;
-
                     shop.item[nextSlot].SetDefaults(ItemType<Items.PottedAloeVeraItem>());
                     shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 0, 10);
                     nextSlot++;
