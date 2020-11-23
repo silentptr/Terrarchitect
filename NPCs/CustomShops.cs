@@ -17,7 +17,7 @@ namespace Terrarchitect.NPCs
                     nextSlot++;
 
                     shop.item[nextSlot].SetDefaults(ItemType<Items.CashRegisterItem>());
-                    shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 50);
+                    shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 1);
                     nextSlot++;
 
                     shop.item[nextSlot].SetDefaults(ItemType<Items.DogHouseItem>()); // needs to be zoologist
