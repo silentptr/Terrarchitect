@@ -13,10 +13,10 @@ namespace Terrarchitect.Tiles
         {
             Main.tileFrameImportant[Type] = true;
             Main.tileLavaDeath[Type] = true;
-            TileID.Sets.FramesOnKillWall[Type] = true;
-            TileObjectData.newTile.CopyFrom(TileObjectData.Style3x3Wall);
-            TileObjectData.newTile.Width = 2;
-            TileObjectData.newTile.CoordinateHeights = new[] { 16, 16, 16 };
+            Main.tileNoAttach[Type] = true;
+            TileObjectData.newTile.CopyFrom(TileObjectData.Style2xX)
+            TileObjectData.newTile.Height = 3;
+            TileObjectData.newTile.CoordinateHeights = new[] { 16, 16, 18 };
             TileObjectData.newTile.Direction = TileObjectDirection.PlaceRight;
             TileObjectData.newTile.StyleHorizontal = true;
             TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
