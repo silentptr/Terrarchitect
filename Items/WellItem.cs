@@ -32,7 +32,7 @@ namespace Terrarchitect.Items
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.Wood, 10);
             recipe.anyWood = true;
-            recipe.AddIngredient(ItemType<Bucket>(), 1);
+            recipe.AddIngredient(ItemType<BucketItem>(), 1);
             recipe.AddIngredient(ItemID.Rope, 6);
             recipe.AddIngredient(ItemID.StoneBlock, 10);
             recipe.SetResult(this, 1);
