@@ -40,7 +40,7 @@ namespace Terrarchitect.Tiles
 
             if (tile.frameY == 0)
             {
-                spriteBatch.Draw(mod.GetTexture("Tiles/ParasolTop"), new Vector2((i * 16) - (int)Main.screenPosition.X - 25, (j * 16) - (int)Main.screenPosition.Y - 24) + zero, new Rectangle(0, 0, 62, 24), Color.White);
+                spriteBatch.Draw(mod.GetTexture("Tiles/ParasolTop"), new Vector2((i * 16) - (int)Main.screenPosition.X - 23, (j * 16) - (int)Main.screenPosition.Y - 24) + zero, new Rectangle(0, 0, 62, 24), Color.White);
             }
             
             return true;
