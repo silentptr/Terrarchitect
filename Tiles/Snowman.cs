@@ -14,6 +14,11 @@ namespace Terrarchitect.Tiles
             Main.tileLavaDeath[Type] = true;
             TileObjectData.newTile.CopyFrom(TileObjectData.Style3x4);
             TileObjectData.newTile.CoordinateHeights = new[] { 16, 16, 16, 18 };
+            TileObjectData.newTile.Direction = TileObjectDirection.PlaceRight;
+            TileObjectData.newTile.StyleHorizontal = true;
+            TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
+            TileObjectData.newAlternate.Direction = TileObjectDirection.PlaceLeft;
+            TileObjectData.addAlternate(1);
             TileObjectData.addTile(Type);
             disableSmartCursor = true;
         }
