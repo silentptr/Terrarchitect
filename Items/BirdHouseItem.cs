@@ -32,8 +32,7 @@ namespace Terrarchitect.Items
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.Wood, 4);
             recipe.anyWood = true;
-            recipe.AddIngredient(ItemID.Bird, 1);
-            recipe.anyBird = true;
+            recipe.AddIngredient(ItemID.Birds, 1);
             recipe.SetResult(this, 1);
             recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
             recipe.AddRecipe();
