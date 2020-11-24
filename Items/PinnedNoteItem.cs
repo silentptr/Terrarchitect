@@ -27,5 +27,13 @@ namespace Terrarchitect.Items
             item.consumable = true;
             item.createTile = TileType<Tiles.PinnedNote>();
         }
+            public override void AddRecipes()
+        {
+            ModRecipe recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemType<PaperItem>(), 4);
+            recipe.SetResult(this, 1);
+            recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
+            recipe.AddRecipe();
+        }
     }
 }
