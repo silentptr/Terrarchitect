@@ -27,5 +27,17 @@ namespace Terrarchitect.Items
             item.consumable = true;
             item.createTile = TileType<Tiles.Well>();
         }
+         public override void AddRecipes()
+        {
+            ModRecipe recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.Wood, 10);
+            recipe.anyWood = true;
+            recipe.AddIngredient(ItemType<Bucket>(), 1);
+            recipe.AddIngredient(ItemID.Rope, 6);
+            recipe.AddIngredient(ItemID.StoneBlock, 10);
+            recipe.SetResult(this, 1);
+            recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
+            recipe.AddRecipe();
+        }
     }
 }
