@@ -31,7 +31,7 @@ namespace Terrarchitect.Items
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.Wood, 8);
+            recipe.AddIngredient(ItemID.Wood, 12);
             recipe.anyWood = true;
             recipe.AddIngredient(ItemID.IronPickaxe);
             recipe.SetResult(this, 1);
@@ -39,7 +39,7 @@ namespace Terrarchitect.Items
             recipe.AddRecipe();
 
             ModRecipe recipe2 = new ModRecipe(mod);
-            recipe2.AddIngredient(ItemID.Wood, 8);
+            recipe2.AddIngredient(ItemID.Wood, 12);
             recipe2.anyWood = true;
             recipe2.AddIngredient(ItemID.LeadPickaxe);
             recipe2.SetResult(this, 1);
