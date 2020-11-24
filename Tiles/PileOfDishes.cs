@@ -17,6 +17,8 @@ namespace Terrarchitect.Tiles
             TileObjectData.newTile.CopyFrom(TileObjectData.Style2x1);
             TileObjectData.newTile.CoordinateHeights = new[] { 16 };
             TileObjectData.newTile.AnchorBottom = new AnchorData(AnchorType.SolidTile | AnchorType.SolidWithTop | AnchorType.Table | AnchorType.SolidSide, TileObjectData.newTile.Width, 0);
+            TileObjectData.newTile.Direction = TileObjectDirection.PlaceRight;
+            TileObjectData.newAlternate.Direction = TileObjectDirection.PlaceLeft;
             TileObjectData.addTile(Type);
             disableSmartCursor = true;
         }
