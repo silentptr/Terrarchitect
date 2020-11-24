@@ -1,6 +1,8 @@
 ﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.DataStructures;
+using Terraria.Enums;
 using Terraria.ObjectData;
 using static Terraria.ModLoader.ModContent;
 
