@@ -38,13 +38,13 @@ namespace Terrarchitect.Items
             recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
             recipe.AddRecipe();
             
-            ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.IronBar, 2);
-            recipe.anyIronBar = true;
-            recipe.AddIngredient(ItemID.LeadFence, 8);
-            recipe.SetResult(this, 1);
-            recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
-            recipe.AddRecipe();
+            ModRecipe recipe2 = new ModRecipe(mod);
+            recipe2.AddIngredient(ItemID.IronBar, 2);
+            recipe2.anyIronBar = true;
+            recipe2.AddIngredient(ItemID.LeadFence, 8);
+            recipe2.SetResult(this, 1);
+            recipe2.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
+            recipe2.AddRecipe();
         }
     }
 }
