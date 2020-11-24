@@ -27,5 +27,16 @@ namespace Terrarchitect.Items
             item.consumable = true;
             item.createTile = TileType<Tiles.BirdHouse>();
         }
+        public override void AddRecipes()
+        {
+            ModRecipe recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.Wood, 4);
+            recipe.anyWood = true;
+            recipe.AddIngredient(ItemID.Bird, 1);
+            recipe.anyBird = true;
+            recipe.SetResult(this, 1);
+            recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
+            recipe.AddRecipe();
+        }
     }
 }
