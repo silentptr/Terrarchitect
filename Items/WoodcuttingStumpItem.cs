@@ -32,7 +32,7 @@ namespace Terrarchitect.Items
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.IronAxe);
-            recipe.AddIngredient(ItemID.Wood, 5);
+            recipe.AddIngredient(ItemID.Wood, 2);
             recipe.anyWood = true;
             recipe.SetResult(this, 1);
             recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
@@ -40,7 +40,7 @@ namespace Terrarchitect.Items
 
             ModRecipe recipe2 = new ModRecipe(mod);
             recipe2.AddIngredient(ItemID.LeadAxe);
-            recipe2.AddIngredient(ItemID.Wood, 5);
+            recipe2.AddIngredient(ItemID.Wood, 2);
             recipe2.anyWood = true;
             recipe2.SetResult(this, 1);
             recipe2.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
