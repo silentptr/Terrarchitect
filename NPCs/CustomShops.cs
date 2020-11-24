@@ -12,10 +12,6 @@ namespace Terrarchitect.NPCs
             switch (type)
             {
                 case NPCID.Merchant:
-                    shop.item[nextSlot].SetDefaults(ItemType<Items.BirdHouseItem>()); // needs to be zoologist
-                    shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 50);
-                    nextSlot++;
-
                     shop.item[nextSlot].SetDefaults(ItemType<Items.CashRegisterItem>());
                     shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 1);
                     nextSlot++;
