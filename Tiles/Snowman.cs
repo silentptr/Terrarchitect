@@ -1,6 +1,8 @@
-﻿using Terraria;
+using Terraria;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
+using Terraria.Enums;
+using Terraria.DataStructures;
 using static Terraria.ModLoader.ModContent;
 
 namespace Terrarchitect.Tiles
