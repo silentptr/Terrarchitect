@@ -93,12 +93,7 @@ namespace Terrarchitect.NPCs
                     shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 1);
                     nextSlot++;
                     break;
-                case NPCID.PartyGirl:
-                    shop.item[nextSlot].SetDefaults(ItemType<Items.ParasolItem>());
-                    shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 10);
-                    nextSlot++;
-                    break;
-                case NPCID.Pirate:
+               case NPCID.Pirate:
                     shop.item[nextSlot].SetDefaults(ItemType<Items.ShipCannonItem>());
                     shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 1);
                     nextSlot++;
