@@ -31,7 +31,9 @@ namespace Terrarchitect.Items
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.Silk, 3);
+            recipe.AddIngredient(ItemID.Silk, 6);
+            recipe.AddIngredient(ItemID.Wood, 2);
+            recipe.anyWood = true;
             recipe.SetResult(this, 1);
             recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
             recipe.AddRecipe();
