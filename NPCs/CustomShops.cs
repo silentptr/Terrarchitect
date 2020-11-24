@@ -32,10 +32,6 @@ namespace Terrarchitect.NPCs
                     shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 10);
                     nextSlot++;
 
-                    shop.item[nextSlot].SetDefaults(ItemType<Items.ParchmentItem>());
-                    shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 10);
-                    nextSlot++;
-
                     shop.item[nextSlot].SetDefaults(ItemType<Items.PileOfScrollsItem>());
                     shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 5);
                     nextSlot++;
