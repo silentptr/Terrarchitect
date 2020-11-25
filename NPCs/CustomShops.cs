@@ -54,15 +54,15 @@ namespace Terrarchitect.NPCs
                     nextSlot++;
 
                     shop.item[nextSlot].SetDefaults(ItemType<Items.PottedAloeVeraItem>());
-                    shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 0, 10);
+                    shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 10);
                     nextSlot++;
 
                     shop.item[nextSlot].SetDefaults(ItemType<Items.PottedCactusItem>());
-                    shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 0, 10);
+                    shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 10);
                     nextSlot++;
 
                     shop.item[nextSlot].SetDefaults(ItemType<Items.PottedSeedlingItem>());
-                    shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 0, 10);
+                    shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 10);
                     nextSlot++;
 
                     shop.item[nextSlot].SetDefaults(ItemType<Items.WaterBowlItem>());
