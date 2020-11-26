@@ -13,8 +13,8 @@ namespace Terrarchitect.Items
 
         public override void SetDefaults()
         {
-            item.width = 46;
-            item.height = 40;
+            item.width = 56;
+            item.height = 46;
             item.maxStack = 99;
             item.value = 5;
 
@@ -25,7 +25,7 @@ namespace Terrarchitect.Items
 
             item.useStyle = ItemUseStyleID.SwingThrow;
             item.consumable = true;
-            item.createTile = TileType<Tiles.PickaxeRack>();
+            item.createTile = TileType<Tiles.PickaxeRackNew>();
         }
 
         public override void AddRecipes()

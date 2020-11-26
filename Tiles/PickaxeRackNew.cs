@@ -6,7 +6,7 @@ using static Terraria.ModLoader.ModContent;
 
 namespace Terrarchitect.Tiles
 {
-    public class PickaxeRack : ModTile
+    public class PickaxeRackNew : ModTile
     {
         public override void SetDefaults()
         {
@@ -14,6 +14,7 @@ namespace Terrarchitect.Tiles
             Main.tileNoAttach[Type] = true;
             Main.tileLavaDeath[Type] = true;
             TileObjectData.newTile.CopyFrom(TileObjectData.Style3x3);
+            TileObjectData.newTile.Width = 4;
             TileObjectData.newTile.CoordinateHeights = new[] { 16, 16, 18 };
             TileObjectData.newTile.Direction = TileObjectDirection.PlaceRight;
             TileObjectData.newTile.StyleHorizontal = true;
@@ -26,7 +27,7 @@ namespace Terrarchitect.Tiles
 
         public override void KillMultiTile(int i, int j, int frameX, int frameY)
         {
-            Item.NewItem(i * 16, j * 16, 46, 40, ItemType<Items.PickaxeRackItem>());
+            Item.NewItem(i * 16, j * 16, 56, 46, ItemType<Items.PickaxeRackItem>());
         }
     }
 }
