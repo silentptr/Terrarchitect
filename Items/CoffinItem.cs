@@ -14,7 +14,7 @@ namespace Terrarchitect.Items
         public override void SetDefaults()
         {
             item.width = 62;
-            item.height = 28;
+            item.height = 18;
             item.maxStack = 99;
             item.value = 5;
 
@@ -25,7 +25,7 @@ namespace Terrarchitect.Items
 
             item.useStyle = ItemUseStyleID.SwingThrow;
             item.consumable = true;
-            item.createTile = TileType<Tiles.Coffin>();
+            item.createTile = TileType<Tiles.CoffinNew>();
         }
 
         public override void AddRecipes()
