@@ -14,6 +14,7 @@ namespace Terrarchitect.Tiles
             Main.tileFrameImportant[Type] = true;
             Main.tileNoAttach[Type] = true;
             Main.tileLavaDeath[Type] = true;
+            Main.tileSolidTop[Type] = true;
             TileObjectData.newTile.CopyFrom(TileObjectData.Style4x2);
             //TileObjectData.newTile.Width = 4;
             TileObjectData.newTile.Height = 1;
