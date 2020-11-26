@@ -1,12 +1,13 @@
 ﻿using Terraria;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
+using Terraria.DataStructures;
 using Terraria.Enums;
 using static Terraria.ModLoader.ModContent;
 
 namespace Terrarchitect.Tiles
 {
-    public class Mailbox : ModTile
+    public class MailboxNew : ModTile
     {
         public override void SetDefaults()
         {
@@ -14,11 +15,13 @@ namespace Terrarchitect.Tiles
             Main.tileNoAttach[Type] = true;
             Main.tileLavaDeath[Type] = true;
             TileObjectData.newTile.CopyFrom(TileObjectData.Style2x2);
-            TileObjectData.newTile.CoordinateHeights = new[] { 16, 18 };
-            TileObjectData.newTile.Direction = TileObjectDirection.PlaceLeft;
+            TileObjectData.newTile.Height = 3;
+            TileObjectData.newTile.CoordinateHeights = new[] { 16, 16, 18 };
+            TileObjectData.newTile.Origin = new Point16(1, 2);
+            TileObjectData.newTile.Direction = TileObjectDirection.PlaceRight;
             TileObjectData.newTile.StyleHorizontal = true;
             TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
-            TileObjectData.newAlternate.Direction = TileObjectDirection.PlaceRight;
+            TileObjectData.newAlternate.Direction = TileObjectDirection.PlaceLeft;
             TileObjectData.addAlternate(1);
             TileObjectData.addTile(Type);
             disableSmartCursor = true;
@@ -26,7 +29,7 @@ namespace Terrarchitect.Tiles
 
         public override void KillMultiTile(int i, int j, int frameX, int frameY)
         {
-            Item.NewItem(i * 16, j * 16, 24, 32, ItemType<Items.MailboxItem>());
+            Item.NewItem(i * 16, j * 16, 28, 40, ItemType<Items.MailboxItem>());
         }
     }
 }
