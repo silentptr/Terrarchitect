@@ -1,3 +1,4 @@
+using Terraria
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -13,23 +14,23 @@ namespace Terrarchitect
             recipe.SetResult(ItemID.Leather);
             recipe.AddRecipe();
 			
-			ModRecipe recipe1 = new ModRecipe(this);
-            recipe1.AddIngredient(ItemID.Bunny);
-            recipe1.AddTile(ModContent.TileType<Tiles.TerrarchitectCatalogue>());
-            recipe1.SetResult(ItemID.Leather);
-            recipe1.AddRecipe();	
+			recipe = new ModRecipe(this);
+            recipe.AddIngredient(ItemID.Bunny);
+            recipe.AddTile(ModContent.TileType<Tiles.TerrarchitectCatalogue>());
+            recipe.SetResult(ItemID.Leather);
+            recipe.AddRecipe();	
 			
-			ModRecipe recipe2 = new ModRecipe(this);
-            recipe2.AddRecipeGroup("IronBar");
-            recipe2.AddTile(ModContent.TileType<Tiles.TerrarchitectCatalogue>());
-            recipe2.SetResult(ItemID.Spike, 10);
-            recipe2.AddRecipe();
+			recipe = new ModRecipe(this);
+            recipe.AddRecipeGroup("IronBar");
+            recipe.AddTile(ModContent.TileType<Tiles.TerrarchitectCatalogue>());
+            recipe.SetResult(ItemID.Spike, 10);
+            recipe.AddRecipe();
 			
-			ModRecipe recipe3 = new ModRecipe(this);
-            recipe3.AddIngredient(ModContent.GetInstance<Items.Paper>(), 4);
-            recipe3.AddTile(ModContent.TileType<Tiles.TerrarchitectCatalogue>());
-            recipe3.SetResult(ItemID.Book);
-            recipe3.AddRecipe();
+			recipe = new ModRecipe(this);
+            recipe.AddIngredient(ModContent.GetInstance<Items.Paper>(), 4);
+            recipe.AddTile(ModContent.TileType<Tiles.TerrarchitectCatalogue>());
+            recipe.SetResult(ItemID.Book);
+            recipe.AddRecipe();
         }
     }
 }
