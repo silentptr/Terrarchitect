@@ -1,7 +1,7 @@
 displayName = Terrarchitect
 homepage = https://forums.terraria.org/index.php?threads/terrarchitect.95959/
 author = Gurgle_Nurgle, silent_ptr, Zandberg
-version = 1.2
+version = 1.3
 hideCode = false
 hideResources = false
 includeSource = false
