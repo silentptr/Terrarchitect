@@ -4,14 +4,19 @@ using static Terraria.ModLoader.ModContent;
 
 namespace Terrarchitect.Items 
 {
-    public class Plastic : ModItem 
+    public class PlasticBar : ModItem 
     {
-		public override void SetDefaults()
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Plastic Bar");
+        }
+	
+	public override void SetDefaults()
         {
             item.width = 28;
             item.height = 24;
             item.maxStack = 99;
-		}
+	}
 
         public override void AddRecipes()
         {
