@@ -22,7 +22,7 @@ namespace Terrarchitect.Items
         {
             ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.Gel,5);
-			recipe.AddIngredient(ItemID.DesertFossil,5);
+			recipe.AddIngredient(ItemID.AshBlock,5);
             recipe.SetResult(this);
             recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
             recipe.AddRecipe();
