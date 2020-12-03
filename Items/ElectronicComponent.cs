@@ -18,12 +18,14 @@ namespace Terrarchitect.Items
             ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.SandBlock,1);
 			recipe.AddIngredient(ItemID.GoldOre);
+			recipe.AddIngredient(ItemID.Wire,1);
             recipe.SetResult(this);
             recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
             recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.SandBlock,1);
+			recipe.AddIngredient(ItemID.Wire,1);
 			recipe.AddIngredient(ItemID.PlatinumOre);
             recipe.SetResult(this);
             recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
