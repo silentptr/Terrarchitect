@@ -29,7 +29,6 @@ namespace Terrarchitect.Items
             recipe.AddRecipeGroup("IronBar");
 			recipe.AddIngredient(ItemID.Lens);
 			recipe.AddIngredient(mod, "ElectronicComponent");
-			recipe.AddIngredient(ItemID.Wire);
             recipe.SetResult(this);
             recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
             recipe.AddRecipe();
