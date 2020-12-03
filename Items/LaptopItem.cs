@@ -26,6 +26,7 @@ namespace Terrarchitect.Items
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
+	    recipe.AddIngredient(ItemID.Glass, 2);
 			recipe.AddIngredient(mod, "PlasticBar",2);
 			recipe.AddIngredient(mod, "ElectronicComponent",2);
             recipe.SetResult(this);
