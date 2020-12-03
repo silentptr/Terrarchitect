@@ -26,7 +26,6 @@ namespace Terrarchitect.Items
             ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(mod, "PlasticBar",4);
 			recipe.AddIngredient(mod, "ElectronicComponent",2);
-			recipe.AddIngredient(ItemID.Wire,2);
             recipe.SetResult(this);
             recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
             recipe.AddRecipe();
