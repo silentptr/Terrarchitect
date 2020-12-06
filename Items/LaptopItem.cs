@@ -29,6 +29,7 @@ namespace Terrarchitect.Items
 	    recipe.AddIngredient(ItemID.Glass, 2);
 			recipe.AddIngredient(mod, "PlasticBar",2);
 			recipe.AddIngredient(mod, "ElectronicComponent",2);
+			recipe.AddIngredient(ItemID.Glass,2);
             recipe.SetResult(this);
             recipe.AddTile(TileType<Tiles.TerrarchitectCatalogue>());
             recipe.AddRecipe();
