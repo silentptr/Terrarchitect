@@ -26,7 +26,7 @@ namespace Terrarchitect.Tiles
 			animationFrameHeight = 56;
 		}
 		public override void AnimateTile(ref int frame, ref int frameCounter) {
-			if (++frameCounter >= 9)
+			if (++frameCounter >= 8)
 			{
 				frameCounter = 0;
 				frame = ++frame % 4;
